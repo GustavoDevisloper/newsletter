@@ -216,50 +216,70 @@ svg{
 
 }
 
-.images {
+.carousel {
     position: absolute;
-    right: 230px;
-    top: -15px;
+    top: 90px;
+    left: 800px;
+    display: flex;
     width: 416.303px;
     height: 260.189px;
     border-radius: 10.408px;
-    background: url(../imgs/img1.png) no-repeat;
-    background-size: contain; /* Ajuste para "contain" para mostrar a imagem completa */
-    background-position: center center; /* Centralize a imagem vertical e horizontalmente */
-}
-
-.images2{
-    position: absolute;
-    right: 230px;
-    top: 255px;
-    width: 416.303px;
-    height: 260.189px;
-    border-radius: 10.408px;
-    opacity: 0.1;
-    background: url(../imgs/img2.png), lightgray 50% / cover no-repeat;
-}
-.images3{
-    position: absolute;
-    top: 570px;
-    right: 230px;
-    width: 416.303px;
-    height: 260.189px;
-    border-radius: 10.408px;
-    opacity: 0.1;
-    background: url(../imgs/img3.png), rgb(49, 48, 48) 50% / cover no-repeat;
-}
-
-.images4{
-    position: absolute;
-    top: -140px;
-    right: -230px;
-    width: 416.303px;
-    height: 260.189px;
-    border-radius: 10.408px;
-    opacity: 0.3;
-    background: url(../imgs/img4.png), rgb(34, 33, 33) 50% / cover no-repeat;
-}
-
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .images {
+    flex: 0 0 33.33%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+    animation: carouselAnimation 10s infinite;
+  }
+  
+  .images1 {
+    background-image: url(../imgs/img1.png);
+  }
+  
+  .images2 {
+    background-image: url(../imgs/img2.png);
+  }
+  
+  .images3 {
+    background-image: url(../imgs/img3.png);
+  }
+  
+  @keyframes carouselAnimation {
+    0%, 100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    25%, 75% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+  
+  
+  @keyframes carouselAnimation {
+    0%, 100% {
+      transform: translateX(0); /* Mantém a imagem atual visível */
+      opacity: 1; /* Opacidade da imagem atual a 100% */
+    }
+    25%, 75% {
+      transform: translateX(-100%); /* Desloca para a próxima imagem */
+      opacity: 0; /* Opacidade da imagem atual a 0% */
+    }
+  }
+  
+    
 /* Estilização do botão quando o cursor está sobre ele (hover) */
 input[type="button"]:hover {
     background-color: #7548D9; /* Altere a cor de fundo no hover */
