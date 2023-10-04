@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    width: 1440px;
+    padding: 160px 0px 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: var(--colors-gray-gray-950, #09090A);
+    overflow: hidden;
+}
+body h3{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body h1{
+    position: absolute;
+    left: 82px;
+    top: 90px;
+    padding: 16px;
+    color: var(--colors-neutral-white, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+}
+body p{
+    position: absolute;
+    top: 165px;
+    left: 100px;
+    width: 445px;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+#email {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    display: flex;
+    width: 291px;
+    padding: 16px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 5px;
+    background: var(--colors-gray-gray-800, #202024);
+    border: none;
+    color: whitesmoke;
+    transition: border-color 0.3s; /* Adicione uma transição para suavizar a mudança de cor */
+    border-color: transparent; /* Defina a cor inicial da borda como transparente */
+}
+
+label[for="email"] {
+    flex: 1 0 0;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+/* Estilização básica do botão */
+input[type="button"] {
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    background-color: #996DFF; /* Cor de fundo */
+    color: black; /* Cor do texto definida como preto */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 700;
+    border: none; /* Remover a borda padrão */
+    padding: 15px 40px; /* Espaçamento interno para o botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Mostrar o cursor como um ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+svg{
+    position: absolute;
+    top: 314px;
+    left: 600px;
+}
+
+.inovations svg{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+.inovations h1{
+    position: absolute;
+    top: 480px;
+    color: var(--neutral-colors-white, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+.inovations p {
+    position: absolute;
+    top: 530px;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 3 vezes a altura da linha (20px) */
+}
+
+.details svg{
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+.details h1{
+    position: absolute;
+    top: 480px;
+    left: 430px;
+    color: var(--neutral-colors-white, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+.details p{
+    position: absolute;
+    top: 530px;
+    left: 443px;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 3 vezes a altura da linha (20px) */
+}
+
+.organization svg{
+    position: absolute;
+    top: 450px;
+    left: 750px;
+}
+.organization h1{
+    position: absolute;
+    top: 480px;
+    left: 732px;
+    color: var(--neutral-colors-white, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+.organization p{
+    position: absolute;
+    top: 530px;
+    left: 745px;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 3 vezes a altura da linha (20px) */
+}
+
+.offer svg{
+    position: absolute;
+    top: 450px;
+    left: 1040px;
+}
+
+.offer h1{
+    position: absolute;
+    top: 480px;
+    left: 1020px;
+    color: var(--neutral-colors-white, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+.offer p{
+    position: absolute;
+    top: 530px;
+    left: 1036px;
+    color: var(--colors-gray-gray-200, #C4C4CC);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 3 vezes a altura da linha (20px) */
+
+}
+
+.images {
+    position: absolute;
+    right: 230px;
+    top: -15px;
+    width: 416.303px;
+    height: 260.189px;
+    border-radius: 10.408px;
+    background: url(../imgs/img1.png) no-repeat;
+    background-size: contain; /* Ajuste para "contain" para mostrar a imagem completa */
+    background-position: center center; /* Centralize a imagem vertical e horizontalmente */
+}
+
+.images2{
+    position: absolute;
+    right: 230px;
+    top: 255px;
+    width: 416.303px;
+    height: 260.189px;
+    border-radius: 10.408px;
+    opacity: 0.1;
+    background: url(../imgs/img2.png), lightgray 50% / cover no-repeat;
+}
+.images3{
+    position: absolute;
+    top: 570px;
+    right: 230px;
+    width: 416.303px;
+    height: 260.189px;
+    border-radius: 10.408px;
+    opacity: 0.1;
+    background: url(../imgs/img3.png), rgb(49, 48, 48) 50% / cover no-repeat;
+}
+
+.images4{
+    position: absolute;
+    top: -140px;
+    right: -230px;
+    width: 416.303px;
+    height: 260.189px;
+    border-radius: 10.408px;
+    opacity: 0.3;
+    background: url(../imgs/img4.png), rgb(34, 33, 33) 50% / cover no-repeat;
+}
+
+/* Estilização do botão quando o cursor está sobre ele (hover) */
+input[type="button"]:hover {
+    background-color: #7548D9; /* Altere a cor de fundo no hover */
+}
+
+/* Estilização do botão quando pressionado (active) */
+input[type="button"]:active {
+    background-color: #4E339E; /* Altere a cor de fundo quando o botão é pressionado */
+}
