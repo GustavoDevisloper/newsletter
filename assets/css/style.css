@@ -79,22 +79,22 @@ label[for="email"] {
     line-height: 160%; /* 25.6px */
 }
 /* Estilização básica do botão */
-input[type="button"] {
-    position: absolute;
-    top: 300px;
-    left: 430px;
-    background-color: #996DFF; /* Cor de fundo */
-    color: black; /* Cor do texto definida como preto */
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: normal;
-    font-weight: 700;
-    border: none; /* Remover a borda padrão */
-    padding: 15px 40px; /* Espaçamento interno para o botão */
-    border-radius: 5px; /* Borda arredondada */
-    cursor: pointer; /* Mostrar o cursor como um ponteiro ao passar o mouse */
-    font-size: 16px; /* Tamanho da fonte */
+button.meu-button {
+  position: absolute;
+  top: 300px;
+  left: 430px;
+  background-color: #996DFF;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 700;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
 svg{
     position: absolute;
     top: 314px;
@@ -281,11 +281,11 @@ svg{
   
     
 /* Estilização do botão quando o cursor está sobre ele (hover) */
-input[type="button"]:hover {
+button.meu-button:hover {
     background-color: #7548D9; /* Altere a cor de fundo no hover */
 }
 
 /* Estilização do botão quando pressionado (active) */
-input[type="button"]:active {
+button.meu-button:active {
     background-color: #4E339E; /* Altere a cor de fundo quando o botão é pressionado */
 }

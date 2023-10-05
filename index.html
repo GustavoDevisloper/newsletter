@@ -9,8 +9,11 @@
     <h3>NEWSLETTER EXCLUSIVA</h3>
     <h1>Workspace inspiration</h1>
     <p>Assine nossa newsletter e transforme seu espaço de trabalho em um oásis de produtividade!</p>
-    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" >
-    <input type="button" value="QUERO RECEBER">
+    <form method="POST" action="envia.php">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" >
+        <button type="submit" class="meu-button">QUERO RECEBER</button>
+    </form>
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M7 16L13 10L7 4" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
