@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+body{
+    background-color: rgb(255, 255, 255);    
+}
+.imagesend img{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.titlesend{
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #10182F;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sbtittle{
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 457px;
+    color: #10182F;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 161.111% */
+}
+
+input[type="button"] {
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #10182F; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="button"]:hover {
+    background-color: #06070a; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+.errorEmail img{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.errorEmail h1{
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #10182F;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.errorEmail p{
+    position: absolute;
+    top: 315px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 457px;
+    color: #10182F;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 161.111% */
+}
